@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10919" started-at="2019-06-18T06:36:29Z" finished-at="2019-06-18T06:36:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10919" started-at="2019-06-18T06:36:29Z" finished-at="2019-06-18T06:36:40Z">
+      <class name="com.investaSolutions.tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.investaSolutions.tests.LoginTest@1ed4004b]" name="beforeSuite" is-config="true" duration-ms="4409" started-at="2019-06-18T12:06:25Z" finished-at="2019-06-18T12:06:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testUserLoginFunctionality()[pri:1, instance:com.investaSolutions.tests.LoginTest@1ed4004b]" name="testUserLoginFunctionality" duration-ms="9257" started-at="2019-06-18T12:06:29Z" finished-at="2019-06-18T12:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLoginFunctionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.investaSolutions.tests.LoginTest@1ed4004b]" name="afterMethod" is-config="true" duration-ms="1653" started-at="2019-06-18T12:06:38Z" finished-at="2019-06-18T12:06:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserLoginFunctionality status=SUCCESS method=LoginTest.testUserLoginFunctionality()[pri:1, instance:com.investaSolutions.tests.LoginTest@1ed4004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.investaSolutions.tests.LoginTest@1ed4004b]" name="generateReport" is-config="true" duration-ms="5773" started-at="2019-06-18T12:06:40Z" finished-at="2019-06-18T12:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.investaSolutions.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
